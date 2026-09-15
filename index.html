@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover a curated collection of jewellery for every style.">
+  <title>ELUA | Modern Jewellery Collection</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#">ATELIER<span>JEWELLERY</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#collection">Collection</a>
+      <a href="#about">About</a>
+      <a href="#visit">Find Us</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">CURATED AT THE MARKET</p>
+        <h1>Jewellery<br><em>for every style.</em></h1>
+        <p class="hero-text">
+          Discover a changing collection of everyday pieces, timeless classics
+          and statement jewellery chosen to help you express your style.
+        </p>
+        <a class="button" href="#collection">Explore collection <span>→</span></a>
+      </div>
+      <div class="hero-photo">
+        <img src="images/necklaces-heart.jpeg" alt="Gold and silver heart necklaces">
+        <span class="art-label">NEW<br>ARRIVALS</span>
+      </div>
+    </section>
+
+    <section class="intro" id="about">
+      <p class="eyebrow">THE COLLECTION</p>
+      <h2>Small pieces.<br><em>Big personality.</em></h2>
+      <p>
+        From delicate layers to bold finishing touches, our mixed collection
+        brings together pieces for every mood, outfit and occasion.
+      </p>
+    </section>
+
+    <section class="collection" id="collection">
+      <article class="product-card">
+        <div class="product-image"><img src="images/earrings-heart.jpeg" alt="Gold heart-shaped earrings"></div>
+        <div class="product-meta"><h3>Earrings</h3><span>01</span></div>
+      </article>
+      <article class="product-card">
+        <div class="product-image"><img src="images/necklaces-heart.jpeg" alt="Gold and silver heart necklaces"></div>
+        <div class="product-meta"><h3>Necklaces</h3><span>02</span></div>
+      </article>
+      <article class="product-card">
+        <div class="product-image"><img src="images/rings-knot.jpeg" alt="Gold knot ring"></div>
+        <div class="product-meta"><h3>Rings</h3><span>03</span></div>
+      </article>
+      <article class="product-card">
+        <div class="product-image"><img src="images/bracelet-colour.jpeg" alt="Gold bracelet with colourful links"></div>
+        <div class="product-meta"><h3>Bracelets</h3><span>04</span></div>
+      </article>
+    </section>
+
+    <section class="visit" id="visit">
+      <div>
+        <p class="eyebrow">COME SAY HELLO</p>
+        <h2>See it.<br><em>Try it on.</em></h2>
+      </div>
+      <div class="visit-copy">
+        <p>
+          Find us at your local market and browse the collection in person.
+          New pieces arrive regularly, so there is always something different
+          to discover.
+        </p>
+        <a class="text-link" href="#">Where to find us <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo" href="#">ATELIER<span>JEWELLERY</span></a>
+    <p>Jewellery for every style.</p>
+    <p>© <span id="year"></span> ELUA</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
